@@ -1,0 +1,6 @@
+.hero {
+  @include exampleMixin(center, center);
+  &--active {
+    padding: 1rem;
+  }
+}

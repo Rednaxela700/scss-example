@@ -1,0 +1,49 @@
+.btn, .header button {
+  border: none;
+  padding: .5rem 1rem;
+  background-color: #ff0;
+}
+
+.hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: "row";
+          flex-direction: "row";
+}
+
+.hero--active {
+  padding: 1rem;
+}
+
+.header {
+  font-size: 2.5rem;
+  line-height: 2rem;
+}
+
+.header-logo {
+  border: 5px dotted green;
+}
+
+.header-logo:hover {
+  color: blue;
+}
+
+.example {
+  border: 3px solid red;
+}
+
+@media (min-width: 1199px) {
+  .example {
+    border: 3px solid blue;
+  }
+}
+/*# sourceMappingURL=index.css.map */
